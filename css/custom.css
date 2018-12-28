@@ -1,0 +1,60 @@
+/* CSS customizations */
+.custom-progress-bars .progress-label{
+width:45%;
+}
+.custom-progress-bars .progress{
+    width:55%;
+}
+a.lightbox-portfolio[disabled], a.lightbox-portfolio[disabled]:hover {
+    pointer-events: none;}
+
+.custom-box-details2{padding: 10px;
+    text-align: center;
+    zoom: 0.9;
+    min-height: 250px;}
+
+.processicons{font-size: 50px;
+    padding-bottom: 10px;}
+
+    .progress-label{white-space:nowrap;}
+
+    .thumb-info-caption > span > a{color:grey;}
+
+    @media (max-width: 1199px) {
+        #lets-talk > div > div.col-md-5.p-none,
+        #lets-talk > div > div.col-md-7.p-none{width:100%}
+        
+        #lets-talk > div > div.col-md-7.p-none > section > div > div{    display: inline-block;
+            float: none;
+            max-width: initial;}
+            #lets-talk > div > div.col-md-7.p-none > section > div{text-align: center;}
+            #lets-talk > div > div.col-md-5.p-none > section > div {text-align: center}
+
+            #lets-talk > div > div.col-md-5.p-none > section > div > div{    display: inline-block;
+                float: none;
+                text-align: left;}
+    }
+
+    @media (max-width: 991px) {
+        /*#hardskills > div > div > div > div > div > ul > li{width:22%}*/
+        .custom-box-details2{
+            min-height: initial }
+            #process > div > div > h2{width: 100%;}
+            #process > div > div > div{margin: auto;}
+            .custom-box-details2{    margin-bottom: 5px;}
+            h2{text-align: center}
+            #softskills > div > div > h2{width: 100%;}
+    }
+
+    @media (max-width: 768px) {
+        #hardskills > div > div > div > div > div > ul > li{width:33%}
+.progress{visibility: hidden}
+
+    }
+
+    @media (max-width: 500px) {
+        #hardskills > div > div > div > div > div > ul > li{width:50%}
+        #lets-talk > div > div.col-md-7.p-none > section > div > div{    padding-left: 0px !important;
+            padding-right: 0px !important;}
+
+    }
